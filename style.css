@@ -1,0 +1,81 @@
+ body {
+        font-family: "Times New Roman", serif;
+        text-align: center;
+        background-color: beige;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        margin: 60px auto 30px;   
+        width: 90%;              
+        height: 80vh;          
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        position: relative;
+        display: flex;           
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .avatar {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid #ccc;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 80%;              
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .social {
+        margin-top: auto;        
+        padding-bottom: 20px;
+    }
+
+    .social a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .social a img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        border-radius: 50%;
+        transition: 0.3s;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social a img:hover {
+        transform: scale(1.1);
+    }
+
+    .tanggal{
+       position: absolute;
+       bottom: 15px;
+       right: 25px;
+       font-size: 12px;
+       color: black;
+    }
+    
